@@ -1,0 +1,82 @@
+@import "variables";
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10vmin 25vmin;
+
+    .left {
+        width: 35%;
+        display: grid;
+        place-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5vmin;
+
+        h1 {
+            font-size: 7vmin;
+            font-weight: 700;
+            margin: 2vmin 0;
+            position: relative;
+            color: $secondary;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -1vmin;
+                left: 1.5vmin;
+                width: 5vmin;
+                height: 0.5vmin;
+                background-color: $primary;
+            }
+        }
+
+        p {
+            font-size: 2.5vmin;
+            font-weight: 300;
+            color: $tertiary;
+            margin-bottom: 2vmin;
+        }
+
+        ul {
+            list-style: none;
+            li {
+                font-size: 2.3vmin;
+                margin: 1vmin 0;
+                &:before {
+                    content: "\2022";
+                    color: red;
+                    font-weight: bold;
+                    display: inline-block;
+                }
+            }
+        }
+        button{
+            width: 20vmin;
+            min-height: 7vmin;
+            padding: 1vmin 2vmin;
+            border: none;
+            background-color: $primary;
+            color: $white;
+            font-size: 2.5vmin;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 2vmin;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color: $secondary;
+            }
+        }
+
+    }
+}

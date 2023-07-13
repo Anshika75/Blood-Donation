@@ -1,7 +1,51 @@
 @import "variables";
 
 header{
-    height: 7vmin;
     width: 100%;
     background-color: $primary;
+    // background-color: $tertiary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vmin 25vmin;
+    .left{
+        display: flex; 
+        align-items: center;
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 2vmin;
+            font-size: 2vmin;
+            font-weight: 600;
+            color: $white;
+            i{
+                margin-right: 1vmin;
+            }
+            p{
+                font-weight: 500;
+                b{
+                    font-weight: 800;
+                }
+            }
+
+        }
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        a{
+            height: 4vmin;
+            width: 4vmin;
+            margin-left: 2vmin;
+            border-radius: 50%;
+            display:grid;
+            place-items: center;
+            background-color: $white;
+            text-decoration: none;
+            color: $secondary;
+            font-size: 2vmin;
+        }
+    }
 }

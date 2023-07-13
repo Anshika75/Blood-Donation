@@ -1,0 +1,70 @@
+@import "variables";
+
+.landing{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://templates.bwlthemes.com/blood_donation/images/home_1_slider_1.jpg");
+    background-size: 100% 100%;
+    display: grid;
+    place-items: center;    
+    .box{
+        background-color: rgba(255,255,255,0.9);
+        width: 1000px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size: 2.5vmin;
+            font-weight: 600;
+            color: $primary;
+            margin-bottom: 2vmin;
+        }
+        b{
+            font-size: 7.5vmin;
+            font-weight: 800;
+            text-align: center;
+            color: $secondary;
+        }
+        button{
+            padding: 2vmin 5vmin;
+            font-size: 2.5vmin;
+            font-weight: 600;
+            color: $white;
+            background-color: $primary;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-top: 3vmin;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color: $secondary;
+            }   
+            
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 150px;
+            height: 150px;
+            border:5px solid $primary;
+            border-top: none;
+            border-right: none;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            border:5px solid $primary;
+            border-bottom: none;
+            border-left: none;
+        }
+    }
+}

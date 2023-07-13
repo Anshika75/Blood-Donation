@@ -1,0 +1,72 @@
+@import "variables";
+.stats {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvc3BpdGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vmin 25vmin;
+    background-attachment: fixed;
+
+    h1 {
+        font-size: 7vmin;
+        font-weight: 700;
+        margin: 2vmin 0;
+        position: relative;
+        color: $white;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -1vmin;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 5vmin;
+            height: 0.5vmin;
+            background-color: $primary;
+        }
+    }
+
+    p {
+        font-size: 2.5vmin;
+        font-weight: 300;
+        color: $white;
+        margin: 2vmin 0;
+    }
+    
+    .statbox{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2vmin;
+        width: 100%;
+        margin-top: 5vmin;
+        .box{
+            height: 200px;
+            width: 250px;
+            background-color: $white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            i{
+                font-size: 5vmin;
+                color: $primary;
+            }
+            b{
+                font-size: 6vmin;
+                color: $secondary;
+                margin-top: 1vmin;
+            }
+            p{
+                font-size: 3vmin;
+                color: $tertiary;
+                margin-top: 1vmin;
+                font-weight: 400;
+            }
+        }
+
+    }
+}
