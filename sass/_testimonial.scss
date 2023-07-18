@@ -1,0 +1,83 @@
+@import "variables";
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vmin 25vmin;
+    h1 {
+        font-size: 7vmin;
+        font-weight: 700;
+        margin: 2vmin 0 0 0;
+        position: relative;
+        color: $secondary;
+        
+        &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -2vmin;
+            width:0.5vmin;
+            height: 5vmin;
+            background-color: $primary;
+        }
+    }
+    p {
+        font-size: 2.5vmin;
+        font-weight: 300;
+        color: $tertiary;
+        margin: 2vmin;
+    }
+    .swiper {
+        width: 100%;
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2vmin;
+        margin-top: 5vmin;
+        .user{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 2vmin;
+            img{
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            p{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                font-size: 3.5vmin;
+                font-weight: 600;
+                padding-bottom: 0;
+                color: $secondary;
+                span{
+                    font-size: 2vmin;
+                    font-weight: 400;
+                    color: $tertiary;
+                }
+            }
+        }
+        p{
+            font-size: 2.5vmin;
+            font-weight: 300;
+            color: $tertiary;
+            margin: 2vmin;
+            width: 75%;
+            padding-bottom: 5vmin;
+        }
+      }
+    }
+  
+}
