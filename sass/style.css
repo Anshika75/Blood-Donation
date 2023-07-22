@@ -1005,6 +1005,55 @@ nav i {
     height: 35px;
   }
 }
+footer {
+  padding: 5vmin 25vmin;
+  background-color: #EF3D32;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .logo {
+  width: 7vmin;
+  height: 7vmin;
+}
+footer .logo img {
+  width: 100%;
+  height: 100%;
+}
+footer .nav a {
+  text-decoration: underline;
+  color: #FFFFFF;
+  font-size: 2.5vmin;
+  font-weight: 400;
+  margin: 2.5vmin;
+  transition: all 0.3s ease-in-out;
+}
+footer .nav a:hover {
+  color: #555555;
+}
+footer p {
+  font-size: 2.5vmin;
+  font-weight: 400;
+}
+
+@media (max-width: 720px) {
+  footer {
+    padding: 5vmin;
+  }
+  footer .nav a {
+    margin: 1vmin;
+  }
+}
+@media (min-width: 721px) and (max-width: 1000px) {
+  footer {
+    padding: 5vmin;
+  }
+  footer .nav a {
+    margin: 1vmin;
+  }
+}
 * {
   margin: 0;
   padding: 0;
