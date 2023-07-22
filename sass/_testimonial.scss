@@ -81,3 +81,43 @@
     }
   
 }
+@media (max-width: 720px){
+    .testimonial{
+        padding: 10vmin;
+        p {
+            text-align: center;
+        }
+        .swiper {
+          .swiper-slide {
+            margin-top: 5vmin;
+            .user{
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+          }
+        }
+      
+    }
+}
+@media (min-width:721px) and (max-width:1000px){
+    .testimonial{
+        padding: 10vmin;
+        p {
+            text-align: center;
+        }
+        .swiper {
+          .swiper-slide {
+            margin-top: 5vmin;
+            .user{
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+          }
+        }
+      
+    }
+}

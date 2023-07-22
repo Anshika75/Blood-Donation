@@ -975,6 +975,36 @@ nav i {
   padding-bottom: 5vmin;
 }
 
+@media (max-width: 720px) {
+  .testimonial {
+    padding: 10vmin;
+  }
+  .testimonial p {
+    text-align: center;
+  }
+  .testimonial .swiper .swiper-slide {
+    margin-top: 5vmin;
+  }
+  .testimonial .swiper .swiper-slide .user img {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (min-width: 721px) and (max-width: 1000px) {
+  .testimonial {
+    padding: 10vmin;
+  }
+  .testimonial p {
+    text-align: center;
+  }
+  .testimonial .swiper .swiper-slide {
+    margin-top: 5vmin;
+  }
+  .testimonial .swiper .swiper-slide .user img {
+    width: 35px;
+    height: 35px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
