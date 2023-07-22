@@ -858,6 +858,41 @@ nav i {
   transition: all 0.3s ease-in-out;
 }
 
+@media (max-width: 720px) {
+  .team {
+    padding: 10vmin;
+  }
+  .team p {
+    text-align: center;
+  }
+  .team .teambox {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5vmin;
+    margin-top: 5vmin;
+  }
+  .team .teambox .box {
+    height: 100%;
+    width: 300px;
+  }
+}
+@media (min-width: 721px) and (max-width: 1000px) {
+  .team {
+    padding: 10vmin;
+  }
+  .team p {
+    text-align: center;
+  }
+  .team .teambox {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5vmin;
+    place-items: center;
+    margin-top: 5vmin;
+  }
+  .team .teambox .box {
+    height: 100%;
+    width: 600px;
+  }
+}
 .testimonial {
   display: flex;
   flex-direction: column;

@@ -103,3 +103,46 @@
 
     }
 }
+@media (max-width: 720px){
+    .team {
+        padding: 10vmin;
+        
+        p{
+            text-align: center;
+        }
+    
+        .teambox {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 5vmin;
+            margin-top: 5vmin;
+    
+            .box {
+                height: 100%;
+                width: 300px;
+            }
+    
+        }
+    }
+}
+@media (min-width:721px) and (max-width:1000px){
+    .team {
+        padding: 10vmin;
+        
+        p{
+            text-align: center;
+        }
+    
+        .teambox {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 5vmin;
+            place-items: center;
+            margin-top: 5vmin;
+    
+            .box {
+                height: 100%;
+                width: 600px;
+            }
+    
+        }
+    }
+}
