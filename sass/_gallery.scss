@@ -60,3 +60,33 @@
     }
 
 }
+@media (max-width: 720px){ 
+.gallery{
+    padding: 10vmin;
+    h1 {
+        text-align: center;
+    }
+    .gallerybox{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5vmin;
+        width: 100%;
+        margin-top: 5vmin;
+    }
+}
+}
+@media (min-width:721px) and (max-width:1000px){
+    .gallery{
+        padding: 10vmin;
+        h1 {
+            text-align: center;
+        }
+        .gallerybox{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 5vmin;
+            width: 100%;
+            margin-top: 5vmin;
+        }
+    } 
+}

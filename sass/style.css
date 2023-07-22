@@ -734,6 +734,36 @@ nav i {
   background-color: #555555;
 }
 
+@media (max-width: 720px) {
+  .gallery {
+    padding: 10vmin;
+  }
+  .gallery h1 {
+    text-align: center;
+  }
+  .gallery .gallerybox {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5vmin;
+    width: 100%;
+    margin-top: 5vmin;
+  }
+}
+@media (min-width: 721px) and (max-width: 1000px) {
+  .gallery {
+    padding: 10vmin;
+  }
+  .gallery h1 {
+    text-align: center;
+  }
+  .gallery .gallerybox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5vmin;
+    width: 100%;
+    margin-top: 5vmin;
+  }
+}
 .team {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1577896851905-dc99e1f8b4b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
   background-size: cover;
