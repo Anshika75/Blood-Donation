@@ -130,3 +130,21 @@
         }
     }
 }
+@media (max-width: 720px){
+    .events{
+        padding: 10vmin;
+        .eventbox{
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 5vmin;
+        }
+    }
+}
+@media (min-width:721px) and (max-width:1000px){
+    .events{
+        padding: 10vmin;
+        .eventbox{
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 5vmin;
+        }
+    }
+}
