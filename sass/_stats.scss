@@ -70,3 +70,35 @@
 
     }
 }
+@media (max-width: 720px){
+    .stats {
+        padding: 10vmin;
+        .statbox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .box{
+                width: 100%;
+                height: 200px;
+                margin-top: 5vmin;
+            }
+        }
+    }
+}
+@media (min-width:721px) and (max-width:1000px){
+    .stats {
+        padding: 10vmin;
+        .statbox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .box{
+                width: 100%;
+                height: 200px;
+                margin-top: 5vmin;
+            }
+        }
+    }
+}

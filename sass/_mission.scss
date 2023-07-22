@@ -88,3 +88,41 @@
 
     }
 }
+@media (max-width: 720px){
+    .mission {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10vmin;
+    
+        .right {
+            width: 300px;
+            height: 300px;
+        }
+    
+        .left {
+            width: 100%;
+            padding-left: 0vmin;
+            margin-top: 5vmin;
+    
+        }
+    }
+}
+@media (min-width:721px) and (max-width:1000px){
+    .mission {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10vmin;
+    
+        .right {
+            width: 100%;
+            height: auto;
+        }
+    
+        .left {
+            width: 100%;
+            padding-left: 0vmin;
+            margin-top: 5vmin;
+    
+        }
+    }
+}

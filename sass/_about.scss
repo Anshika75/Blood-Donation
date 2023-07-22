@@ -82,13 +82,35 @@
     }
 }
 @media (max-width: 720px){
-    .about{
+    .about {
         flex-direction: column;
+        padding: 10vmin;
+    
+        .left {
+            width: 100%;
+        }
+    
+        .right {
+            width: 100%;
+            padding-left: 0vmin;
+            margin-top: 5vmin;
+        }
     }
 }
 @media (min-width:721px) and (max-width:1000px){
-    .about{
+    .about {
         flex-direction: column;
+        padding: 10vmin;
+    
+        .left {
+            width: 100%;
+        }
+    
+        .right {
+            width: 100%;
+            padding-left: 0vmin;
+            margin-top: 5vmin;    
+        }
     }
 
 }

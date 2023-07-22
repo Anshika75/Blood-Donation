@@ -288,11 +288,29 @@ nav i {
 @media (max-width: 720px) {
   .about {
     flex-direction: column;
+    padding: 10vmin;
+  }
+  .about .left {
+    width: 100%;
+  }
+  .about .right {
+    width: 100%;
+    padding-left: 0vmin;
+    margin-top: 5vmin;
   }
 }
 @media (min-width: 721px) and (max-width: 1000px) {
   .about {
     flex-direction: column;
+    padding: 10vmin;
+  }
+  .about .left {
+    width: 100%;
+  }
+  .about .right {
+    width: 100%;
+    padding-left: 0vmin;
+    margin-top: 5vmin;
   }
 }
 .mission {
@@ -377,6 +395,38 @@ nav i {
   background-color: #555555;
 }
 
+@media (max-width: 720px) {
+  .mission {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10vmin;
+  }
+  .mission .right {
+    width: 300px;
+    height: 300px;
+  }
+  .mission .left {
+    width: 100%;
+    padding-left: 0vmin;
+    margin-top: 5vmin;
+  }
+}
+@media (min-width: 721px) and (max-width: 1000px) {
+  .mission {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10vmin;
+  }
+  .mission .right {
+    width: 100%;
+    height: auto;
+  }
+  .mission .left {
+    width: 100%;
+    padding-left: 0vmin;
+    margin-top: 5vmin;
+  }
+}
 .stats {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhvc3BpdGFsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
@@ -444,6 +494,38 @@ nav i {
   font-weight: 400;
 }
 
+@media (max-width: 720px) {
+  .stats {
+    padding: 10vmin;
+  }
+  .stats .statbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .stats .statbox .box {
+    width: 100%;
+    height: 200px;
+    margin-top: 5vmin;
+  }
+}
+@media (min-width: 721px) and (max-width: 1000px) {
+  .stats {
+    padding: 10vmin;
+  }
+  .stats .statbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .stats .statbox .box {
+    width: 100%;
+    height: 200px;
+    margin-top: 5vmin;
+  }
+}
 .events {
   display: flex;
   flex-direction: column;
