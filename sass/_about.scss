@@ -3,6 +3,7 @@
 .about {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10vmin 25vmin;
 
@@ -79,4 +80,15 @@
         }
 
     }
+}
+@media (max-width: 720px){
+    .about{
+        flex-direction: column;
+    }
+}
+@media (min-width:721px) and (max-width:1000px){
+    .about{
+        flex-direction: column;
+    }
+
 }

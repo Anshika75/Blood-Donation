@@ -38,4 +38,35 @@ nav{
             }
         }
     }
+    i{
+        display: none;
+    }
+}
+@media (max-width: 720px){
+    nav{
+        padding: 2vmin 5vmin;
+        .menu{
+            display: none;
+        }
+        i{
+            display: block;
+            font-size: 3vmin;
+            color: $secondary;
+            cursor: pointer;
+        }
+    }
+}
+@media (min-width:721px) and (max-width:1000px){
+    nav{
+        padding: 2vmin 5vmin;
+        .menu{
+            display: none;
+        }
+        i{
+            display: block;
+            font-size: 3vmin;
+            color: $secondary;
+            cursor: pointer;
+        }
+    }
 }

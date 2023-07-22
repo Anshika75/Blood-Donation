@@ -49,3 +49,13 @@ header{
         }
     }
 }
+@media (max-width: 720px){
+    header{
+        padding: 2vmin 5vmin;
+    }
+}
+@media (min-width:721px) and (max-width:1000px){
+    header{
+        padding: 2vmin 5vmin;
+    }
+}
