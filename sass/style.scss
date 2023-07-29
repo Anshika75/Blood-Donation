@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import "variables";
-@import "header";
-@import "nav";
-@import "landing";
-@import "about";
-@import "mission";
-@import "stats";
-@import "event";
-@import "gallery";
-@import "team";
-@import "testimonial";
-@import "footer";
+@import "./Landing/main";
 *{
     margin: 0;
     padding: 0;

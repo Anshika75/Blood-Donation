@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10vmin 25vmin;
+    padding: 10vmin;
     background-attachment: fixed;
 
     h1 {
@@ -41,7 +41,7 @@
     .teambox {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 0vmin;
+        grid-gap: 4vmin;
         width: 100%;
         margin-top: 5vmin;
 

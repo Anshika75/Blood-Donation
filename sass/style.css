@@ -97,7 +97,7 @@ nav .menu li a {
 nav .menu li a:hover {
   color: #EF3D32;
 }
-nav i {
+nav i.fa-bars {
   display: none;
 }
 
@@ -108,7 +108,7 @@ nav i {
   nav .menu {
     display: none;
   }
-  nav i {
+  nav i.fa-bars {
     display: block;
     font-size: 3vmin;
     color: #555555;
@@ -122,7 +122,7 @@ nav i {
   nav .menu {
     display: none;
   }
-  nav i {
+  nav i.fa-bars {
     display: block;
     font-size: 3vmin;
     color: #555555;
@@ -773,7 +773,7 @@ nav i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10vmin 25vmin;
+  padding: 10vmin;
   background-attachment: fixed;
 }
 .team h1 {
@@ -802,7 +802,7 @@ nav i {
 .team .teambox {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0vmin;
+  grid-gap: 4vmin;
   width: 100%;
   margin-top: 5vmin;
 }

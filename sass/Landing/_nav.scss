@@ -38,7 +38,7 @@ nav{
             }
         }
     }
-    i{
+    i.fa-bars{
         display: none;
     }
 }
@@ -48,7 +48,7 @@ nav{
         .menu{
             display: none;
         }
-        i{
+        i.fa-bars{
             display: block;
             font-size: 3vmin;
             color: $secondary;
@@ -62,7 +62,7 @@ nav{
         .menu{
             display: none;
         }
-        i{
+        i.fa-bars{
             display: block;
             font-size: 3vmin;
             color: $secondary;
