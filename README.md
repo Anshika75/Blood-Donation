@@ -1,5 +1,5 @@
 # Blood-Donation
-https://github.com/Anshika75/Blood-Donation
+Blood donation website with a striking ui
 
 # View
-https://github.com/Anshika75/Blood-Donation
+http://maggi75.me/Blood-Donation/
